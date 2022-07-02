@@ -15,12 +15,13 @@
                 <li><a class="nav-link" href="#Order">Order</a></li>
                 <li><a class="nav-link" href="#Kombucha_101">Kombucha 101</a></li>
                 
-                <li><a class="nav-link" href="About">About</a></li>
-                <li><a class="nav-link" href="Contact">Contact</a></li>
+                <li><a class="nav-link" href="#About">About</a></li>
+                <li><a class="nav-link" href="#Contact">Contact</a></li>
                 
             </ul>
         </nav>
     </header>
+    <div class="page-wrapper">
 <section id="Order">
     <div class="image-container">
         <img id="soda-pic" class="product-pic" src="images/roselle-soda.jpeg" alt="glass of kombucha"/>
@@ -41,6 +42,7 @@
 </section>
 <section id="Kombucha_101">
     <h1 class="101">What is Kombucha?</h1>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/4ly8lSNW6lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <img src="" alt="">
     <p>Kombucha is a fizzy, fermented drink full of health benefits and has been around for thousands of years. 
         Originating in ancient China, kombucha is sweetened tea that is fermented with the help of beneficial yeasts and bacteria. This great tasting drink is a good way to make to add beneficial probiotics to your diet. In addition to keeping your digestion healthy the bacteria also produce beneficial acids during the fermentation process that can help with your overall health and longevity. 
@@ -51,17 +53,18 @@
     <h1 class="about">About Us</h1>
     <p>Mana was created in 2019 with a goal of providing great tasting products that focus on health and wellbeing. With our modern and fast-paced lives its more important than ever to make sure we are powering our bodies and minds in the best ways possible.</p>
 </section>
-<section id="contact">
+<section id="Contact">
     <h1 class="contact">Contact Us</h1>
     <h2>We'd love to hear from you</h2>
 </section>
-    <div class="container">
+    <div class="email-container">
     <h2 class="section-title">Sign up for monthly discounts and recipes</h2>
-    <form id="form">
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
         <label id="email_label">Email</label>
-        <input id="email" type="email" required placeholder="your_email@..." />
-        <input id="submit" url="https://www.freecodecamp.com/email-submit"/>
+        <input id="email" type="email" name="email" required placeholder="your_email@..." />
+        <input id="submit" type="submit" url="https://www.freecodecamp.com/email-submit"/>
     </form>
+</div>
 </div>
 </body>
 </html>
